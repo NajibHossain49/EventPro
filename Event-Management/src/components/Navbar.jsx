@@ -24,11 +24,11 @@ const Navbar = () => {
   };
 
   const NavLinks = [
-    {
-      path: "/",
-      label: "Home",
-      icon: <Home className="mr-2" size={20} />,
-    },
+    // {
+    //   path: "/",
+    //   label: "Home",
+    //   icon: <Home className="mr-2" size={20} />,
+    // },
     {
       path: "/Event-Creation",
       label: "Event Creation",
@@ -40,12 +40,12 @@ const Navbar = () => {
     //   icon: <Globe className="mr-2" size={20} />,
     //   protected: true,
     // },
-    // {
-    //   path: "/Borrowed-Books",
-    //   label: "Borrowed-Books",
-    //   icon: <FileText className="mr-2" size={20} />,
-    //   protected: true,
-    // },
+    {
+      path: "/Event-Dashboard",
+      label: "Event Dashboard",
+      icon: <FileText className="mr-2" size={20} />,
+      protected: true,
+    },
   ];
 
 

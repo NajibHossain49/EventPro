@@ -4,6 +4,7 @@ import ErrorPage from "../components/ErrorPage";
 import Login from "../Authentication/Login";
 import Register from "../Authentication/Register";
 import EventCreation from "../pages/EventCreation";
+import EventDashboard from "../pages/EventDashboard";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: "/Event-Creation",
                 element: <EventCreation />,
+            },
+            {
+                path: "/Event-Dashboard",
+                element: <EventDashboard />,
             }
 
 
